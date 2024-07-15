@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <GVL Name="SafetyTestTrolleyObjectsArray" Id="{4c315092-3eb0-4ba7-8ac2-d1189a2ec0e3}">
+    <Declaration><![CDATA[// Upper bounds of devices
+VAR_GLOBAL CONSTANT
+    cUpperBoundSafetyTestTrolley    : UINT := 4;
+END_VAR
+
+VAR_GLOBAL
+    {attribute 'TcContextName':='MainTask'}
+    SafetyTestTrolley   : ARRAY [0..cUpperBoundSafetyTestTrolley] OF FB_SafetyTestTrolley;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

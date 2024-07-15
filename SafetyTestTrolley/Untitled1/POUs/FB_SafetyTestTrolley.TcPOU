@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="FB_SafetyTestTrolley" Id="{d7d77f6f-0ef1-45a3-8d89-74afec92169c}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_SafetyTestTrolley
+VAR_INPUT
+    // Transportsystem
+    // Lamp Reset Buttons
+    arrLampResetButtons_TS      AT%I*    : ARRAY [0..7] OF BOOL;
+    
+    // Emergency Stop Buttons
+    arrEmergencyStopButtons_TS  AT%Q*    : ARRAY [0..7] OF BOOL;
+    
+    // Reset Buttons
+    arrResetButtons_TS          AT%Q*    : ARRAY [0..7] OF BOOL;
+    
+    // Lightcurtains
+    arrLightcurtains_TS         AT%Q*    : ARRAY [0..7] OF BOOL;
+    
+    // Interlocking Guards
+    arrInterlockingGuards_TS    AT%Q*    : ARRAY [0..3] OF BOOL;
+
+    // Machinezone
+    // Lamp Reset Button
+    bLampResetButton1_MZ        AT%I*   : BOOL;
+    // Emergency Stop Button
+    bEmergencyStopButton1_MZ    AT%Q*   : BOOL;
+    // Reset Button
+    bResetButton1_MZ            AT%Q*   : BOOL;
+    // Lightcurtain
+    bLightcurtain1_MZ           AT%Q*   : BOOL;
+    // Interlocking Guard
+    bInterlockingGuard1_MZ      AT%Q*   : BOOL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
