@@ -18,7 +18,7 @@
     <LibraryReferences>{ad4470c5-63ae-490b-b1ad-e706471c3b53}</LibraryReferences>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="GVLs\SafetyTestTrolleyObjectsArray.TcGVL">
+    <Compile Include="GVLs\MachineObjectsArray.TcGVL">
       <SubType>Code</SubType>
       <LinkAlways>true</LinkAlways>
     </Compile>

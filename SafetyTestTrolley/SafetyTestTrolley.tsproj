@@ -37,67 +37,67 @@
 		</System>
 		<Plc>
 			<Project GUID="{45772563-F109-48ED-8FCD-AD6757879CA1}" Name="Untitled1" PrjFilePath="Untitled1\Untitled1.plcproj" TmcFilePath="Untitled1\Untitled1.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="Untitled1\Untitled1.tmc" TmcHash="{991A0086-BB09-B3A7-233F-B5C9D8E921CF}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="Untitled1\Untitled1.tmc" TmcHash="{D8C4149A-5C1B-1026-BC9B-C390B5AA783E}">
 					<Name>Untitled1 Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
 						<Name>PlcTask Inputs</Name>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[0].arrLampResetButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[0].arrLampResetButtons_TS</Name>
 							<Comment><![CDATA[ Transportsystem
  Lamp Reset Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[0].bLampResetButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[0].bLampResetButton1_MZ</Name>
 							<Comment><![CDATA[ Machinezone
  Lamp Reset Button]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[1].arrLampResetButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[1].arrLampResetButtons_TS</Name>
 							<Comment><![CDATA[ Transportsystem
  Lamp Reset Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[1].bLampResetButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[1].bLampResetButton1_MZ</Name>
 							<Comment><![CDATA[ Machinezone
  Lamp Reset Button]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[2].arrLampResetButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[2].arrLampResetButtons_TS</Name>
 							<Comment><![CDATA[ Transportsystem
  Lamp Reset Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[2].bLampResetButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[2].bLampResetButton1_MZ</Name>
 							<Comment><![CDATA[ Machinezone
  Lamp Reset Button]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[3].arrLampResetButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[3].arrLampResetButtons_TS</Name>
 							<Comment><![CDATA[ Transportsystem
  Lamp Reset Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[3].bLampResetButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[3].bLampResetButton1_MZ</Name>
 							<Comment><![CDATA[ Machinezone
  Lamp Reset Button]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[4].arrLampResetButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[4].arrLampResetButtons_TS</Name>
 							<Comment><![CDATA[ Transportsystem
  Lamp Reset Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[4].bLampResetButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[4].bLampResetButton1_MZ</Name>
 							<Comment><![CDATA[ Machinezone
  Lamp Reset Button]]></Comment>
 							<Type>BOOL</Type>
@@ -106,202 +106,202 @@
 					<Vars VarGrpType="2" AreaNo="1">
 						<Name>PlcTask Outputs</Name>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[0].arrEmergencyStopButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[0].arrEmergencyStopButtons_TS</Name>
 							<Comment><![CDATA[ Emergency Stop Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[0].arrResetButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[0].arrResetButtons_TS</Name>
 							<Comment><![CDATA[ Reset Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[0].arrLightcurtains_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[0].arrLightcurtains_TS</Name>
 							<Comment><![CDATA[ Lightcurtains]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[0].arrInterlockingGuards_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[0].arrInterlockingGuards_TS</Name>
 							<Comment><![CDATA[ Interlocking Guards]]></Comment>
 							<Type GUID="{ACB00D92-8A3C-90A7-DB92-3AB4C0604945}">ARRAY [0..3] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[0].bEmergencyStopButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[0].bEmergencyStopButton1_MZ</Name>
 							<Comment><![CDATA[ Emergency Stop Button]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[0].bResetButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[0].bResetButton1_MZ</Name>
 							<Comment><![CDATA[ Reset Button]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[0].bLightcurtain1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[0].bLightcurtain1_MZ</Name>
 							<Comment><![CDATA[ Lightcurtain]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[0].bInterlockingGuard1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[0].bInterlockingGuard1_MZ</Name>
 							<Comment><![CDATA[ Interlocking Guard]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[1].arrEmergencyStopButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[1].arrEmergencyStopButtons_TS</Name>
 							<Comment><![CDATA[ Emergency Stop Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[1].arrResetButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[1].arrResetButtons_TS</Name>
 							<Comment><![CDATA[ Reset Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[1].arrLightcurtains_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[1].arrLightcurtains_TS</Name>
 							<Comment><![CDATA[ Lightcurtains]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[1].arrInterlockingGuards_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[1].arrInterlockingGuards_TS</Name>
 							<Comment><![CDATA[ Interlocking Guards]]></Comment>
 							<Type GUID="{ACB00D92-8A3C-90A7-DB92-3AB4C0604945}">ARRAY [0..3] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[1].bEmergencyStopButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[1].bEmergencyStopButton1_MZ</Name>
 							<Comment><![CDATA[ Emergency Stop Button]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[1].bResetButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[1].bResetButton1_MZ</Name>
 							<Comment><![CDATA[ Reset Button]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[1].bLightcurtain1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[1].bLightcurtain1_MZ</Name>
 							<Comment><![CDATA[ Lightcurtain]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[1].bInterlockingGuard1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[1].bInterlockingGuard1_MZ</Name>
 							<Comment><![CDATA[ Interlocking Guard]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[2].arrEmergencyStopButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[2].arrEmergencyStopButtons_TS</Name>
 							<Comment><![CDATA[ Emergency Stop Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[2].arrResetButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[2].arrResetButtons_TS</Name>
 							<Comment><![CDATA[ Reset Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[2].arrLightcurtains_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[2].arrLightcurtains_TS</Name>
 							<Comment><![CDATA[ Lightcurtains]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[2].arrInterlockingGuards_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[2].arrInterlockingGuards_TS</Name>
 							<Comment><![CDATA[ Interlocking Guards]]></Comment>
 							<Type GUID="{ACB00D92-8A3C-90A7-DB92-3AB4C0604945}">ARRAY [0..3] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[2].bEmergencyStopButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[2].bEmergencyStopButton1_MZ</Name>
 							<Comment><![CDATA[ Emergency Stop Button]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[2].bResetButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[2].bResetButton1_MZ</Name>
 							<Comment><![CDATA[ Reset Button]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[2].bLightcurtain1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[2].bLightcurtain1_MZ</Name>
 							<Comment><![CDATA[ Lightcurtain]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[2].bInterlockingGuard1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[2].bInterlockingGuard1_MZ</Name>
 							<Comment><![CDATA[ Interlocking Guard]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[3].arrEmergencyStopButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[3].arrEmergencyStopButtons_TS</Name>
 							<Comment><![CDATA[ Emergency Stop Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[3].arrResetButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[3].arrResetButtons_TS</Name>
 							<Comment><![CDATA[ Reset Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[3].arrLightcurtains_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[3].arrLightcurtains_TS</Name>
 							<Comment><![CDATA[ Lightcurtains]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[3].arrInterlockingGuards_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[3].arrInterlockingGuards_TS</Name>
 							<Comment><![CDATA[ Interlocking Guards]]></Comment>
 							<Type GUID="{ACB00D92-8A3C-90A7-DB92-3AB4C0604945}">ARRAY [0..3] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[3].bEmergencyStopButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[3].bEmergencyStopButton1_MZ</Name>
 							<Comment><![CDATA[ Emergency Stop Button]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[3].bResetButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[3].bResetButton1_MZ</Name>
 							<Comment><![CDATA[ Reset Button]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[3].bLightcurtain1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[3].bLightcurtain1_MZ</Name>
 							<Comment><![CDATA[ Lightcurtain]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[3].bInterlockingGuard1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[3].bInterlockingGuard1_MZ</Name>
 							<Comment><![CDATA[ Interlocking Guard]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[4].arrEmergencyStopButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[4].arrEmergencyStopButtons_TS</Name>
 							<Comment><![CDATA[ Emergency Stop Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[4].arrResetButtons_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[4].arrResetButtons_TS</Name>
 							<Comment><![CDATA[ Reset Buttons]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[4].arrLightcurtains_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[4].arrLightcurtains_TS</Name>
 							<Comment><![CDATA[ Lightcurtains]]></Comment>
 							<Type GUID="{481A0C15-D2DB-59F6-F498-C30AA9C1998C}">ARRAY [0..7] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[4].arrInterlockingGuards_TS</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[4].arrInterlockingGuards_TS</Name>
 							<Comment><![CDATA[ Interlocking Guards]]></Comment>
 							<Type GUID="{ACB00D92-8A3C-90A7-DB92-3AB4C0604945}">ARRAY [0..3] OF BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[4].bEmergencyStopButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[4].bEmergencyStopButton1_MZ</Name>
 							<Comment><![CDATA[ Emergency Stop Button]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[4].bResetButton1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[4].bResetButton1_MZ</Name>
 							<Comment><![CDATA[ Reset Button]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[4].bLightcurtain1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[4].bLightcurtain1_MZ</Name>
 							<Comment><![CDATA[ Lightcurtain]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>SafetyTestTrolleyObjectsArray.SafetyTestTrolley[4].bInterlockingGuard1_MZ</Name>
+							<Name>MachineObjectsArray.SafetyTestTrolley[4].bInterlockingGuard1_MZ</Name>
 							<Comment><![CDATA[ Interlocking Guard]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
